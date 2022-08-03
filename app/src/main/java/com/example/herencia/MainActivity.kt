@@ -9,18 +9,21 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-
         classInheritance()
-
 
     }
 
 
     private fun classInheritance(){
 
-        val programador=Programador("Yovanni",34)
+        val programador=Programador("Yovanni",34,"Kotlin")
         programador.work()
+        programador.lenguaje()
+        programador.institucion()
 
+        val diseñador=Diseñador("Ledesma",35)
+        diseñador.institucion()
+        diseñador.aplicativo()
 
 
 
