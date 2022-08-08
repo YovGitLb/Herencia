@@ -16,10 +16,15 @@ class MainActivity : AppCompatActivity() {
 
     private fun classInheritance(){
 
+        val persona=Persona("Yovanni",38)
+        persona.ocupation()
+
         val programador=Programador("Yovanni",34,"Kotlin")
         programador.work()
         programador.lenguaje()
         programador.institucion()
+        programador.ocupation()
+        programador.drive()
 
         val diseñador=Diseñador("Ledesma",35)
         diseñador.institucion()
